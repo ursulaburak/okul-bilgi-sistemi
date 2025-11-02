@@ -1,4 +1,4 @@
-[deepseek_bash_20251102_6ee88d.sh](https://github.com/user-attachments/files/23289538/deepseek_bash_20251102_6ee88d.sh)[deepseek_sql_20251102_ef4d71.sql](https://github.com/user-attachments/files/23289537/deepseek_sql_20251102_ef4d71.sql)[deepseek_text_20251102_b0c4d9.txt](https://github.com/user-attachments/files/23289529/deepseek_text_20251102_b0c4d9.txt)# Okul Bilgi Sistemi (OBS) Çekirdeği
+# Okul Bilgi Sistemi (OBS) Çekirdeği
 
 **Bir PostgreSQL Veritabanı ve İş Mantığı Projesi**
 
@@ -33,8 +33,9 @@ git clone https://github.com/kullaniciadiniz/okul-bilgi-sistemi.git
 # Veya ZIP olarak indirin ve açın
 # okul-bilgi-sistemi-main.zip
 
+------------------------------------------------------------------------
 
-[Uploading deepokul-bilgi-sistemi/
+
 ├── 📁 database/               # SQL dosyaları
 │   ├── 01_schema.sql         # Veritabanı şeması
 │   ├── 02_data.sql           # Örnek veriler
@@ -49,6 +50,7 @@ git clone https://github.com/kullaniciadiniz/okul-bilgi-sistemi.git
 ├── 📄 .gitignore            # Git ignore ayarları
 └── 📄 LICENSE               # MIT Lisansıseek_text_20251102_b0c4d9.txt…]()
 
+------------------------------------------------------------------------
 
 ## Kurulum Adımları
 1. Gereksinimler
@@ -58,23 +60,22 @@ git clone https://github.com/kullaniciadiniz/okul-bilgi-sistemi.git
     DBeaver, pgAdmin veya benzeri SQL client
 
 2. Veritabanı Kurulumu
-   [Uploading -- 1. Veritabanını oluşturun
+
+-- 1. Veritabanını oluşturun
 CREATE DATABASE okul_bilgi_sistemi;
 
 -- 2. Veritabanına bağlanın
-\c okul_bilgi_sistemi;deepseek_sql_20251102_ef4d71.sql…]()
 
-[Uploading dee# Tabloları oluştur
-psql -h localhost -p 5435 -U postgres -d okul_bilgi_sistemi -f database/01_schema.sql
-
-# Örnek verileri ekle
+**Örnek verileri ekle
 psql -h localhost -p 5435 -U postgres -d okul_bilgi_sistemi -f database/02_data.sql
 
-# Fonksiyonları oluştur
+**Fonksiyonları oluştur
 psql -h localhost -p 5435 -U postgres -d okul_bilgi_sistemi -f database/03_functions.sql
 
-# View'ları oluştur
-psql -h localhost -p 5435 -U postgres -d okul_bilgi_sistemi -f database/04_views.sqlpseek_bash_20251102_6ee88d.sh…]()
+**View'ları oluştur
+psql -h localhost -p 5435 -U postgres -d okul_bilgi_sistemi -f database/04_views.sql
+
+------------------------------------------------------------------------
 
 
 
