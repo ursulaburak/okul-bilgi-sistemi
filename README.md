@@ -24,35 +24,8 @@ oluşturulmuştur.
 
 ------------------------------------------------------------------------
 
-## Projeyi Çalıştırma
-
-[deepseek_bash_20251102_975758.sh](https://github.com/user-attachments/files/23289528/deepseek_bash_20251102_975758.sh)
-# GitHub'dan klonlayın
-git clone https://github.com/kullaniciadiniz/okul-bilgi-sistemi.git
-
-# Veya ZIP olarak indirin ve açın
-# okul-bilgi-sistemi-main.zip
-
-------------------------------------------------------------------------
-
-
-├── 📁 database/               # SQL dosyaları
-│   ├── 01_schema.sql         # Veritabanı şeması
-│   ├── 02_data.sql           # Örnek veriler
-│   ├── 03_functions.sql      # Fonksiyonlar ve prosedürler
-│   ├── 04_views.sql          # Görünümler (Views)
-│   └── 05_test_queries.sql   # Test sorguları
-├── 📁 docs/                  # Dokümantasyon
-│   ├── kurulum-kilavuzu.md   # Detaylı kurulum rehberi
-│   └── proje-raporu.md       # Proje detayları
-├── 📁 images/                # Ekran görüntüleri
-├── 📄 README.md              # Bu dosya
-├── 📄 .gitignore            # Git ignore ayarları
-└── 📄 LICENSE               # MIT Lisansıseek_text_20251102_b0c4d9.txt…]()
-
-------------------------------------------------------------------------
-
 ## Kurulum Adımları
+
 1. Gereksinimler
 
     PostgreSQL 12 veya üzeri
@@ -61,10 +34,10 @@ git clone https://github.com/kullaniciadiniz/okul-bilgi-sistemi.git
 
 2. Veritabanı Kurulumu
 
--- 1. Veritabanını oluşturun
+-- Veritabanını oluşturun
 CREATE DATABASE okul_bilgi_sistemi;
 
--- 2. Veritabanına bağlanın
+-- Veritabanına bağlanın
 
 **Örnek verileri ekle
 psql -h localhost -p 5435 -U postgres -d okul_bilgi_sistemi -f database/02_data.sql
