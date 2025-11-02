@@ -28,25 +28,17 @@ oluşturulmuştur.
 
 1. Gereksinimler
 
-    PostgreSQL 12 veya üzeri
+    **PostgreSQL 12 veya üzeri
 
-    DBeaver, pgAdmin veya benzeri SQL client
+    **DBeaver, pgAdmin veya benzeri SQL client
 
 2. Veritabanı Kurulumu
 
--- Veritabanını oluşturun
-CREATE DATABASE okul_bilgi_sistemi;
+    **Veritabanını oluşturun
+    CREATE DATABASE okul_bilgi_sistemi;
+    
+    **Veritabanına bağlanın
 
--- Veritabanına bağlanın
-
-**Örnek verileri ekle
-psql -h localhost -p 5435 -U postgres -d okul_bilgi_sistemi -f database/02_data.sql
-
-**Fonksiyonları oluştur
-psql -h localhost -p 5435 -U postgres -d okul_bilgi_sistemi -f database/03_functions.sql
-
-**View'ları oluştur
-psql -h localhost -p 5435 -U postgres -d okul_bilgi_sistemi -f database/04_views.sql
 
 ------------------------------------------------------------------------
 
