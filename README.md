@@ -1,6 +1,6 @@
 # Okul Bilgi Sistemi (OBS) Çekirdeği
 
-**Bir PostgreSQL Veritabanı ve İş Mantığı Projesi**
+**Bir PostgreSQL Veritabanı ve Çekirdek Mantığı Projesi**
 
 Bu proje, bir eğitim kurumunun temel akademik süreçlerini yönetebilecek
 bir **OBS çekirdek sistemi** geliştirmeyi amaçlar. Projede, veritabanı
